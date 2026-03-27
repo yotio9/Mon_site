@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(216, 238, 253);
+}
+.navbar{
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(126, 28, 207);
+    color: aliceblue;
+    justify-content: space-between;
+    font-size: 25px;
+    list-style-type: none
+    ;
+
+}
+
+.navbar ul { display: flex;
+   justify-content: center;
+    display: flex;
+}
+.navbar ul li{
+    margin-right: 105px;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.sec1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.nav1{
+   background-color: rgb(254, 254, 254); 
+   width: 65%;
+   height: 50px;
+   border-radius: 35px;
+   margin-top: 50px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+}
+
+.nav1 i{
+    margin-right: 10px;font-size: 20px;
+}
+
+.grid{
+    align-items: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 900px 2fr; /* 3 colonnes : fixe, puis deux flexibles */
+    grid-template-rows: 2fr;             /* Lignes s'adaptent au contenu */
+    gap: 40px;
+}
+.cadre{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    width: 735px;
+}
+.cadre button{
+    font-size: 50Px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+.cadre img{
+    width: 735px;
+    height: 560px;
+}
+
+footer{
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 500px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 600px;
+}

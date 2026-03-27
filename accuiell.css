@@ -1,0 +1,138 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(90, 28, 207);
+    color: aliceblue;
+    justify-content: space-between;
+    font-size: 25px;
+    
+
+}
+.navbar ul {
+    display: flex;
+}
+
+a{
+    text-decoration: none ;
+    color: white;
+    list-style-type: none;
+}
+.navbar ul li{
+    margin-right: 105px;
+    
+}
+
+.sec1{
+    background-image: url(Images/Young\ developer\ working\ at\ his\ workplace\ with\ computer\ _\ Premium\ Photo.jpeg);
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+}
+.butt{
+    display: flex;
+    gap:200px
+}
+button{
+    width: 300px; height: 60px;
+    font-size: 30px;
+    border-radius:15px ;
+}
+
+.div1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 1200px;
+    height: 630px;
+    align-items: center;
+    margin: 100px 200px ;
+}
+
+.sec2{
+    display:flex;
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.sec2 img{
+    width: 300px; height: 300px;
+}
+.div2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+.div2 figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 500px;
+}
+
+.div2 img{
+    width: 400px;
+    height: 400px;
+}
+.sec3{
+    background-color: rgb(144, 122, 165);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    
+}
+.div4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+}
+.bloc{
+    margin-left: 50px; 
+}
+
+
+footer{
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 500px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.div5{
+    background-image: url(Images/russe.jpeg);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 650px;
+}
+.sec4{
+    display: flex;
+    flex-direction: row;
+}
+.div6{
+    height: 468px;
+    background-color: antiquewhite;
+    padding-right: 1310px;
+
+}
+
+figure{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 1px;
+}
